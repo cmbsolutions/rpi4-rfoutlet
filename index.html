@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RPI4 - RFOutlet</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #343a40;!important;
+        }
+    </style>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg nav-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand text-light" href="#">RPI4 - RFOutlet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row"><div class="col-12">&nbsp;</div></div>
+    <table class="table table-striped table-hover table-dark">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Description</th>
+            <th scope="col">State</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Nothing connected</td>
+            <td>
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" data-outletId="1" data-outletStatus="on" class="btn btn-success toggleOutlet disabled">On</button>
+                    <button type="button" data-outletId="1" data-outletStatus="off" class="btn btn-danger toggleOutlet disabled">Off</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Nothing connected</td>
+            <td>
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" data-outletId="2" data-outletStatus="on" class="btn btn-success toggleOutlet disabled">On</button>
+                    <button type="button" data-outletId="2" data-outletStatus="off" class="btn btn-danger toggleOutlet disabled">Off</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Insect repelor #1</td>
+            <td>
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" data-outletId="3" data-outletStatus="on" class="btn btn-success toggleOutlet">On</button>
+                    <button type="button" data-outletId="3" data-outletStatus="off" class="btn btn-danger toggleOutlet">Off</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Desklight</td>
+            <td>
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" data-outletId="4" data-outletStatus="on" class="btn btn-success toggleOutlet">On</button>
+                    <button type="button" data-outletId="4" data-outletStatus="off" class="btn btn-danger toggleOutlet">Off</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>All</td>
+            <td>
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" data-outletId="5" data-outletStatus="on" class="btn btn-success toggleOutlet">On</button>
+                    <button type="button" data-outletId="5" data-outletStatus="off" class="btn btn-danger toggleOutlet">Off</button>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
